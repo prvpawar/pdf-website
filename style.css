@@ -1,0 +1,41 @@
+body{
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  margin:0; padding:0;
+}
+.card, .container{
+  max-width: 480px;
+  margin: 50px auto;
+  padding: 20px;
+  background:#fff;
+  border-radius:12px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+h2,h3,h4{ margin: 12px 0; }
+input[type="email"], input[type="password"], .password-wrap input[type="text"]{
+  width:100%; padding:10px; margin:6px 0 12px 0;
+  border:1px solid #ccc; border-radius:6px;
+  box-sizing:border-box;
+}
+button{
+  padding:10px 16px; margin:6px 0; border:none; border-radius:6px;
+  cursor:pointer; background:#0b4ed6; color:#fff; font-weight:600;
+}
+button:hover{ background:#0a3bb5; }
+.row.between{ display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; }
+.err{color:#c00; margin-bottom:10px;}
+.password-wrap{position:relative; display:flex; align-items:center;}
+.password-wrap input{padding-right:46px;}
+.pwd-toggle{
+  position:absolute; right:8px; top:50%; transform:translateY(-50%);
+  border:none; background:transparent; cursor:pointer;
+}
+.pwd-toggle:hover{background:rgba(60,130,250,0.06); border-radius:6px;}
+.pwd-toggle svg{display:block;}
+ul{list-style:none; padding-left:0;}
+ul li{padding:6px 0; display:flex; justify-content:space-between; align-items:center;}
+ul li button{padding:2px 6px; font-size:13px; margin-left:4px; background:#c00;}
+ul li button:hover{background:#a00;}
+ul li a{margin-left:8px; color:#0b4ed6; text-decoration:none;}
+ul li a:hover{text-decoration:underline;}
